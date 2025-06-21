@@ -1,0 +1,34 @@
+[project]
+name = "pyez-triage-louisk"
+version = "0.1.0"
+description = "Collect triage related data from Juniper devices"
+readme = "README.md"
+requires-python = "<3.13"
+dependencies = [
+  "ansible",
+  "asn1crypto",
+  "bcrypt",
+  "cffi",
+  "colorama",
+  "cryptography",
+  "Jinja2",
+  "junos-eznc",
+  "lxml",
+  "MarkupSafe",
+  "ncclient",
+  "netaddr",
+  "paramiko",
+  "pyasn1",
+  "pycparser",
+  "PyNaCl",
+  "pyserial",
+  "PyYAML",
+  "retrying",
+  "scp",
+  "selectors2",
+  "six",
+]
+[tool.pyright]
+exclude = [ ".venv" ]
+venvPath = "."
+venv = ".venv"
